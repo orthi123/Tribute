@@ -1,0 +1,98 @@
+/* =======common css start======= */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: #e5e5fd;
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+}
+.content{
+  max-width: 900px;
+  margin: 0 auto;
+}
+/* =======common css end======= */
+
+
+
+/* =======top css start======= */
+ .img_container{
+  border-radius: 50%;
+   overflow: hidden;
+   
+} 
+.img_container img{
+width: 300px;
+height: 320px;
+}
+.top_section{
+  margin-top: 100px;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+
+}
+.top_section h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #1d1e4c;
+   text-transform: uppercase; 
+}
+.top_section h4{
+  font-size: 20px;
+text-align: end;
+
+}
+/* =======top css end======= */
+
+
+
+
+/* =======about css start======= */
+.about_section{
+margin-top: 50px;
+}
+.about_section h2{
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.about_section p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  text-align: justify;
+  /* for equal side */
+}
+/* =======about css end======= */
+
+
+
+
+/* =======bio css start======= */
+.bio_section{
+  margin-top: 50px;
+}
+.bio_section h3{
+  margin-bottom: 20px;
+}
+.bio_section ul{
+  margin-left: 50px;
+}
+.bio_section li{
+  margin-bottom: 15px;
+}
+/* =======bio css end======= */
+
+
+
+/* =======footer css start======= */
+footer{
+  margin: 50px 0;
+}
+footer h3{
+  text-align: end;
+}
+/* =======footer css end======= */
